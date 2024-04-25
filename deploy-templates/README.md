@@ -33,7 +33,7 @@ A Helm chart for Kubernetes
 | imagePullSecrets[0].name | string | `"regcred"` |  |
 | ingress.annotations | object | `{}` |  |
 | ingress.dnsWildcard | string | `"b3a292d4-7b67-4bbc-9ba2-5a72c5f7f843.k8s.civo.com"` |  |
-| ingress.enabled | bool | `false` |  |
+| ingress.enabled | bool | `true` |  |
 | ingress.path | string | `"/"` |  |
 | ingress.pathType | string | `"Prefix"` | pathType is only for k8s >= 1.1= |
 | ingress.tls | list | `[]` |  |
